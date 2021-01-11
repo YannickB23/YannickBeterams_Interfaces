@@ -20,13 +20,11 @@ namespace YannickBeterams_Interfaces
             transaction.ShowBankName();
             transaction.ShowTransaction();
             transaction.GetAmount();
-            Console.WriteLine(transaction);
             Console.WriteLine("---------------------------------------");
             ITransaction transaction1 = new Transaction(code = "0002", date = "31/12/2019", amount = 376);
             transaction1.ShowBankName();
             transaction1.ShowTransaction();
             transaction1.GetAmount();
-            Console.WriteLine(transaction1);
 
             Console.ReadLine();
         }
